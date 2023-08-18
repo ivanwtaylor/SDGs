@@ -1,0 +1,1870 @@
+{UTF-8}
+change in G6 clean water and sanitation=
+	(modified target G6 clean water and sanitation-G6 Clean Water and Sanitation)/TIME TO CHANGE G6 CLEAN WATER AND SANITATION
+	~	fraction/year
+	~		|
+
+INITIAL G17 PARTNERSHIPS FOR THE GOALS=
+	0.62
+	~	fraction
+	~		|
+
+progress on G14 life below water=
+	G14 Life Below Water/INITIAL G14 LIFE BELOW WATER
+	~	dmnl
+	~		|
+
+G16 Peace Justice and Strong Institutions= INTEG (
+	changing G16 peace justice and strong institutions,
+		INITIAL G16 PEACE JUSTICE AND STRONG INSTITUTIONS)
+	~	fraction
+	~		|
+
+G17 Partnerships for the Goals= INTEG (
+	changing G17 partnerships for the goals,
+		INITIAL G17 PARTNERSHIPS FOR THE GOALS)
+	~	fraction
+	~		|
+
+changing G13 climate action=
+	(modified target G13 climate action-G13 Climate Action)/TIME TO CHANGE G13 CLIMATE ACTION
+	~	fraction/year
+	~		|
+
+progress on G2 zero hunger=
+	G2 Zero Hunger/INITIAL G2 ZERO HUNGER
+	~	dmnl
+	~		|
+
+target G16 peace justice and strong institutions=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS\
+		 , NEW TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS )
+	~	fraction
+	~		|
+
+changing G16 peace justice and strong institutions=
+	(modified target G16 peace justice and strong institutions-G16 Peace Justice and Strong Institutions\
+		)/TIME TO CHANGE G16 PEACE JUSTICE AND STRONG INSTITUTIONS
+	~	fraction/year
+	~		|
+
+changing G17 partnerships for the goals=
+	(modified target G17 partnerships for the goals-G17 Partnerships for the Goals)/TIME TO CHANGE G17 PARTNERSHIPS FOR THE GOALS
+	~	fraction/year
+	~		|
+
+TARGET G17 PARTNERSHIPS FOR THE GOALS MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+progress on G7 affordable and clean energy=
+	G7 Affordable and Clean Energy/INITIAL G7 AFFORDABLE AND CLEAN ENERGY
+	~	dmnl
+	~		|
+
+progress on G8 decent work and economic growth=
+	G8 Decent Work and Economic Growth/INITIAL G8 DECENT WORK AND ECONOMIC GROWTH
+	~	dmnl
+	~		|
+
+progress on G9 industry innovation and infrastruture=
+	G9 Industry Innovation and Infrastructure/INITIAL G9 INDUSTRY INNOVATION AND INFRASTRUCTURE
+	~	dmnl
+	~		|
+
+modified target G16 peace justice and strong institutions=
+	MIN(1,target G16 peace justice and strong institutions*progress on G10 reduce inequalities\
+		*progress on G17 partnerships for the goals*progress on G3 good health and well being\
+		*progress on G5 gender equality*progress on G8 decent work and economic growth)
+	~	fraction
+	~		|
+
+modified target G17 partnerships for the goals=
+	MIN(1,target G17 partnerships for the goals*progress on G1 no poverty*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G14 life below water*progress on G15 life on land*progress on G16 peace justice and strong institutions\
+		*progress on G5 gender equality*progress on G8 decent work and economic growth*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+modified target G2 zero hunger=
+	MIN(1,target G2 zero hunger*progress on G10 reduce inequalities*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G3 good health and well being*progress on G5 gender equality*progress on G6 clean water and sanitation\
+		*progress on G8 decent work and economic growth*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+INITIAL TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS=
+	0.31
+	~	fraction
+	~		|
+
+progress on G1 no poverty=
+	G1 No Poverty/INITIAL G1 NO POVERTY
+	~	dmnl
+	~		|
+
+progress on G10 reduce inequalities=
+	G10 Reduce Inequalities/INITIAL G10 REDUCE INEQUALITIES
+	~	dmnl
+	~		|
+
+progress on G11 sustainable cities and communities=
+	G11 Sustainable Cities and Communities/INITIAL G11 SUSTAINABLE CITIES AND COMMUNITIES
+	~	dmnl
+	~		|
+
+progress on G12 responsible consumption and production=
+	G12 Responsible Consumption and Production/INITIAL G12 RESPONSIBLE CONSUMPTION AND PRODUCTION
+	~	dmnl
+	~		|
+
+progress on G13 climate action=
+	G13 Climate Action/INITIAL G13 CLIMATE ACTION
+	~	dmnl
+	~		|
+
+modified target G14 life below water=
+	MIN(1,target G14 life below water*progress on G10 reduce inequalities*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G15 life on land*progress on G17 partnerships for the goals*progress on G6 clean water and sanitation\
+		*progress on G8 decent work and economic growth*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+modified target G15 life on land=
+	MIN(1,target G15 life on land*progress on G11 sustainable cities and communities*progress on G12 responsible consumption and production\
+		*progress on G13 climate action*progress on G14 life below water*progress on G17 partnerships for the goals\
+		*progress on G6 clean water and sanitation)
+	~	fraction
+	~		|
+
+progress on G15 life on land=
+	G15 Life on Land/INITIAL G15 LIFE ON LAND
+	~	dmnl
+	~		|
+
+progress on G17 partnerships for the goals=
+	G17 Partnerships for the Goals/INITIAL G17 PARTNERSHIPS FOR THE GOALS
+	~	dmnl
+	~		|
+
+modified G7 affordable and clean energy=
+	MIN(1,target G7 affordable and clean energy*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G9 industry innovation and infrastruture)
+	~	fraction
+	~		|
+
+progress on G3 good health and well being=
+	G3 Good Health and Well Being/INITIAL G3 GOOD HEALTH AND WELL BEING
+	~	dmnl
+	~		|
+
+progress on G4 quality education=
+	G4 Quality Education/INITIAL G4 QUALITY EDUCATION
+	~	dmnl
+	~		|
+
+progress on G5 gender equality=
+	G5 Gender Equality/INITIAL G5 GENDER EQUALITY
+	~	dmnl
+	~		|
+
+progress on G6 clean water and sanitation=
+	G6 Clean Water and Sanitation/INITIAL G6 CLEAN WATER AND SANITATION
+	~	dmnl
+	~		|
+
+modified target G13 climate action=
+	MIN(1,target G13 climate action*progress on G1 no poverty*progress on G10 reduce inequalities\
+		*progress on G10 reduce inequalities*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G14 life below water\
+		*progress on G15 life on land*progress on G17 partnerships for the goals*progress on G7 affordable and clean energy\
+		*progress on G2 zero hunger*progress on G9 industry innovation and infrastruture)
+	~	fraction
+	~		|
+
+modified target G9 industry innovation and infrastructure=
+	MIN(1,target G9 industry innovation and infrastructure*progress on G1 no poverty*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G14 life below water*progress on G17 partnerships for the goals*progress on G2 zero hunger\
+		*progress on G5 gender equality*progress on G6 clean water and sanitation*progress on G7 affordable and clean energy\
+		*progress on G8 decent work and economic growth
+	)
+	~	fraction
+	~		|
+
+modified target G4 quality education=
+	MIN(1,target G4 quality education*progress on G10 reduce inequalities*progress on G5 gender equality\
+		*progress on G8 decent work and economic growth)
+	~	fraction
+	~		|
+
+TIME TO CHANGE G16 PEACE JUSTICE AND STRONG INSTITUTIONS=
+	7
+	~	year
+	~		|
+
+TIME TO CHANGE G17 PARTNERSHIPS FOR THE GOALS=
+	2
+	~	year
+	~		|
+
+progress on G16 peace justice and strong institutions=
+	G16 Peace Justice and Strong Institutions/INITIAL G16 PEACE JUSTICE AND STRONG INSTITUTIONS
+	~	dmnl
+	~		|
+
+modified target G3 good health and well being=
+	MIN(1, target G3 good health and well being*progress on G10 reduce inequalities*progress on G11 sustainable cities and communities\
+		*progress on G12 responsible consumption and production*progress on G16 peace justice and strong institutions\
+		*progress on G2 zero hunger*progress on G4 quality education*progress on G5 gender equality\
+		*progress on G6 clean water and sanitation)
+	~	fraction
+	~		|
+
+modified target G1 no poverty=
+	MIN(1,target G1 no poverty*progress on G11 sustainable cities and communities*progress on G13 climate action\
+		*progress on G17 partnerships for the goals*progress on G2 zero hunger*progress on G5 gender equality\
+		*progress on G8 decent work and economic growth*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+modified target G5 gender equality=
+	MIN(1,target G5 gender equality*progress on G1 no poverty*progress on G10 reduce inequalities\
+		*progress on G16 peace justice and strong institutions*progress on G17 partnerships for the goals\
+		*progress on G2 zero hunger*progress on G3 good health and well being*progress on G4 quality education\
+		*progress on G8 decent work and economic growth*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+modified target G6 clean water and sanitation=
+	MIN(1,target G6 clean water and sanitation*progress on G10 reduce inequalities*progress on G11 sustainable cities and communities
+	*progress on G12 responsible consumption and production*progress on G14 life below water\
+		*progress on G15 life on land*progress on G2 zero hunger
+	*progress on G3 good health and well being*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+INITIAL G16 PEACE JUSTICE AND STRONG INSTITUTIONS=
+	0.36
+	~	fraction
+	~		|
+
+modified target G8 decent work and economic growth=
+	MIN(1,target G8 decent work and economic growth*progress on G1 no poverty*progress on G10 reduce inequalities\
+		*progress on G11 sustainable cities and communities*progress on G12 responsible consumption and production\
+		*progress on G14 life below water*progress on G16 peace justice and strong institutions\
+		*progress on G17 partnerships for the goals*progress on G2 zero hunger*progress on G4 quality education\
+		*progress on G5 gender equality*progress on G9 industry innovation and infrastruture\
+		)
+	~	fraction
+	~		|
+
+target G17 partnerships for the goals=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G17 PARTNERSHIPS FOR THE GOALS\
+		 , NEW TARGET G17 PARTNERSHIPS FOR THE GOALS )
+	~	fraction
+	~		|
+
+TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+modified target G12 responaible consumption and production=
+	MIN(1,target G12 responsible consumption and production*progress on G13 climate action\
+		*progress on G14 life below water*progress on G15 life on land*progress on G17 partnerships for the goals\
+		*progress on G2 zero hunger*progress on G3 good health and well being*progress on G6 clean water and sanitation\
+		*progress on G7 affordable and clean energy*progress on G8 decent work and economic growth\
+		*progress on G9 industry innovation and infrastruture)
+	~	fraction
+	~		|
+
+NEW TARGET G17 PARTNERSHIPS FOR THE GOALS=
+	INITIAL TARGET G17 PARTNERSHIPS FOR THE GOALS*TARGET G17 PARTNERSHIPS FOR THE GOALS MULTIPLIER
+	~	fraction
+	~		|
+
+INITIAL TARGET G17 PARTNERSHIPS FOR THE GOALS=
+	0.5
+	~	fraction
+	~		|
+
+modified target G10 reduce inequalities=
+	MIN(1,target G10 reduce inequalities*progress on G1 no poverty*progress on G12 responsible consumption and production\
+		*progress on G13 climate action*progress on G14 life below water*progress on G16 peace justice and strong institutions\
+		*progress on G17 partnerships for the goals*progress on G2 zero hunger*progress on G3 good health and well being\
+		*progress on G4 quality education*progress on G5 gender equality*progress on G6 clean water and sanitation\
+		*progress on G8 decent work and economic growth)
+	~	fraction
+	~		|
+
+modified target G11 sustainable cities and communities=
+	MIN(1,target G11 suatainable cities and communities*progress on G1 no poverty*progress on G13 climate action\
+		*progress on G14 life below water*progress on G15 life on land*progress on G17 partnerships for the goals\
+		*progress on G2 zero hunger*progress on G3 good health and well being*progress on G6 clean water and sanitation\
+		*progress on G7 affordable and clean energy*progress on G8 decent work and economic growth\
+		*progress on G9 industry innovation and infrastruture)
+	~	fraction
+	~		|
+
+NEW TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS=
+	INITIAL TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS*TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS MULTIPLIER
+	~	fraction
+	~		|
+
+INITIAL G15 LIFE ON LAND=
+	0.67
+	~	fraction
+	~		|
+
+NEW TARGET G14 LIFE BELOW WATER=
+	INITIAL TARGET G14 LIFE BELOW WATER*TARGET G14 LIFE BELOW WATER MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G13 CLIMATE ACTION=
+	INITIAL TARGET G13 CLIMATE ACTION*TARGET G13 CLIMATE ACTION MULTIPLIER
+	~	fraction
+	~		|
+
+target G14 life below water=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G14 LIFE BELOW WATER , NEW TARGET G14 LIFE BELOW WATER\
+		 )
+	~	fraction
+	~		|
+
+TARGET G14 LIFE BELOW WATER MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+target G13 climate action=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G13 CLIMATE ACTION , NEW TARGET G13 CLIMATE ACTION\
+		 )
+	~	fraction
+	~		|
+
+changing G14 life below water=
+	(modified target G14 life below water-G14 Life Below Water)/TIME TO CHANGE G14 LIFE BELOW WATER
+	~	fraction/year
+	~		|
+
+INITIAL TARGET G14 LIFE BELOW WATER=
+	0.83
+	~	fraction
+	~		|
+
+INITIAL TARGET G13 CLIMATE ACTION=
+	0.52
+	~	fraction
+	~		|
+
+TIME TO CHANGE G14 LIFE BELOW WATER=
+	9
+	~	year
+	~		|
+
+changing G15 life on land=
+	(modified target G15 life on land-G15 Life on Land)/TIME TO CHANGE G15 LIFE ON LAND
+	~	fraction/year
+	~		|
+
+INITIAL TARGET G15 LIFE ON LAND=
+	0.76
+	~	fraction
+	~		|
+
+target G15 life on land=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G15 LIFE ON LAND , NEW TARGET G15 LIFE ON LAND\
+		 )
+	~	fraction
+	~		|
+
+TARGET G15 LIFE ON LAND MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TIME TO CHANGE G15 LIFE ON LAND=
+	7
+	~	year
+	~		|
+
+G14 Life Below Water= INTEG (
+	changing G14 life below water,
+		INITIAL G14 LIFE BELOW WATER)
+	~	fraction
+	~		|
+
+G13 Climate Action= INTEG (
+	changing G13 climate action,
+		INITIAL G13 CLIMATE ACTION)
+	~	fraction
+	~		|
+
+TARGET G13 CLIMATE ACTION MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+G15 Life on Land= INTEG (
+	changing G15 life on land,
+		INITIAL G15 LIFE ON LAND)
+	~	fraction
+	~		|
+
+INITIAL G14 LIFE BELOW WATER=
+	0.66
+	~	fraction
+	~		|
+
+INITIAL G13 CLIMATE ACTION=
+	0.7
+	~	fraction
+	~		|
+
+NEW TARGET G15 LIFE ON LAND=
+	INITIAL TARGET G15 LIFE ON LAND*TARGET G15 LIFE ON LAND MULTIPLIER
+	~	fraction
+	~		|
+
+TIME TO CHANGE G13 CLIMATE ACTION=
+	2
+	~	year
+	~		|
+
+G2 Zero Hunger= INTEG (
+	changing G2 zero hunger,
+		INITIAL G2 ZERO HUNGER)
+	~	fraction
+	~		|
+
+target G10 reduce inequalities=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G10 REDUCE INEQUALITIES , NEW TARGET G10 REDUCE INEQUALITIES
+	)
+	~	fraction
+	~		|
+
+G3 Good Health and Well Being= INTEG (
+	changing G3 good health and well being,
+		INITIAL G3 GOOD HEALTH AND WELL BEING)
+	~	fraction
+	~		|
+
+target G3 good health and well being=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G3 GOOD HEALTH AND WELL BEING\
+		 , NEW TARGET G3 GOOD HEALTH AND WELL BEING )
+	~	fraction
+	~		|
+
+G9 Industry Innovation and Infrastructure= INTEG (
+	changing G9 industry innovation and infrastructure,
+		INITIAL G9 INDUSTRY INNOVATION AND INFRASTRUCTURE)
+	~	fraction
+	~		|
+
+target G4 quality education=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G4 QUALITY EDUCATION, NEW TARGET G4 QUALITY EDUCATION\
+		 )
+	~	fraction
+	~		|
+
+NEW TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION=
+	INITIAL TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION*TARGET G12 RESPONISIBLE CONSUMPTION AND PRODUCTION MULTIPLIER
+	~	fraction
+	~		|
+
+G12 Responsible Consumption and Production= INTEG (
+	changing G12 responsible consumption and production,
+		INITIAL G12 RESPONSIBLE CONSUMPTION AND PRODUCTION)
+	~	fraction
+	~		|
+
+G5 Gender Equality= INTEG (
+	changing G5 gender equality,
+		INITIAL G5 GENDER EQUALITY)
+	~	fraction
+	~		|
+
+target G5 gender equality=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G5 GENDER EQUALITY , NEW TARGET G5 GENDER EQUALITY
+	)
+	~	fraction
+	~		|
+
+changing G12 responsible consumption and production=
+	(modified target G12 responaible consumption and production-G12 Responsible Consumption and Production\
+		)/TIME TO CHANGE G12 RESPONSIBLE CONSUMPTION AND PRODUCTION
+	~	fraction/year
+	~		|
+
+G1 No Poverty= INTEG (
+	changing G1 no poverty,
+		INITIAL G1 NO POVERTY)
+	~	fraction
+	~		|
+
+G6 Clean Water and Sanitation= INTEG (
+	change in G6 clean water and sanitation,
+		INITIAL G6 CLEAN WATER AND SANITATION)
+	~	fraction
+	~		|
+
+G7 Affordable and Clean Energy= INTEG (
+	changing G7 affordable and clean energy,
+		INITIAL G7 AFFORDABLE AND CLEAN ENERGY)
+	~	fraction
+	~		|
+
+G4 Quality Education= INTEG (
+	changing G4 quality education,
+		INITIAL G4 QUALITY EDUCATION)
+	~	fraction
+	~		|
+
+IMPLEMENTATION DATE=
+	2023
+	~	years
+	~		|
+
+G8 Decent Work and Economic Growth= INTEG (
+	changing G8 decent work and economic growth,
+		INITIAL G8 DECENT WORK AND ECONOMIC GROWTH)
+	~	fraction
+	~		|
+
+target G11 suatainable cities and communities=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES\
+		 , NEW TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES
+	 )
+	~	fraction
+	~		|
+
+target G1 no poverty=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G1 NO POVERTY , NEW TARGET G1 NO POVERTY\
+		 )
+	~	fraction
+	~		|
+
+target G8 decent work and economic growth=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G8 DECENT WORK AND ECONOMIC GROWTH\
+		, NEW TARGET G8 DECENT WORK AND ECONOMIC GROWTH )
+	~	fraction
+	~		|
+
+target G7 affordable and clean energy=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G7 AFFORDABLE AND CLEAN ENERGY\
+		 ,NEW TARGET G7 AFFORDABLE AND CLEAN ENERGY)
+	~	fraction
+	~		|
+
+target G2 zero hunger=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G2 ZERO HUNGER, NEW TARGET G2 ZERO HUNGER\
+		 )
+	~	fraction
+	~		|
+
+target G6 clean water and sanitation=
+	IF THEN ELSE( Time<=IMPLEMENTATION DATE,INITIAL TARGET G6 CLEAN WATER AND SANITATION\
+		 , NEW TARGET G6 CLEAN WATER AND SANITATION
+	)
+	~	fraction
+	~		|
+
+target G9 industry innovation and infrastructure=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE,INITIAL TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE\
+		, NEW TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE
+	 )
+	~	fraction
+	~		|
+
+target G12 responsible consumption and production=
+	IF THEN ELSE(Time<=IMPLEMENTATION DATE, INITIAL TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION\
+		 , NEW TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION )
+	~	fraction
+	~		|
+
+NEW TARGET G6 CLEAN WATER AND SANITATION=
+	INITIAL TARGET G6 CLEAN WATER AND SANITATION*TARGET G6 CLEAN WATER AND SANITATION MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G2 ZERO HUNGER=
+	INITIAL TARGET G2 ZERO HUNGER*TARGET G2 ZERO HUNGER MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G3 GOOD HEALTH AND WELL BEING=
+	INITIAL TARGET G3 GOOD HEALTH AND WELL BEING*TARGET G3 GOOD HEALTH AND WELL BEING MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G4 QUALITY EDUCATION=
+	INITIAL TARGET G4 QUALITY EDUCATION*TARGET G4 QUALITY EDUCATION MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G5 GENDER EQUALITY=
+	INITIAL TARGET G5 GENDER EQUALITY*TARGET G5 GENDER EQUALITY MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE=
+	INITIAL TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE*TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE MULTIPLIER
+	~	fraction
+	~		|
+
+NEW TARGET G8 DECENT WORK AND ECONOMIC GROWTH=
+	INITIAL TARGET G8 DECENT WORK AND ECONOMIC GROWTH*TARGET G8 DECENT WORK AND ECONOMIC GROWTH MULTIPLIER
+	~	fraction
+	~		|
+
+TARGET G10 REDUCE INEQUALITIES MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G1 NO POVERTY MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+NEW TARGET G10 REDUCE INEQUALITIES=
+	INITIAL TARGET G10 REDUCE INEQUALITIES*TARGET G10 REDUCE INEQUALITIES MULTIPLIER
+	~	fraction
+	~		|
+
+TARGET G8 DECENT WORK AND ECONOMIC GROWTH MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G3 GOOD HEALTH AND WELL BEING MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G6 CLEAN WATER AND SANITATION MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G7 AFFORDABLE AND CLEAN ENERGY MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G2 ZERO HUNGER MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G5 GENDER EQUALITY MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+TARGET G4 QUALITY EDUCATION MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+NEW TARGET G1 NO POVERTY=
+	INITIAL TARGET G1 NO POVERTY*TARGET G1 NO POVERTY MULTIPLIER
+	~	fraction
+	~		|
+
+TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+NEW TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES=
+	INITIAL TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES*TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES MULTIPLIER
+	~	fraction
+	~		|
+
+TARGET G12 RESPONISIBLE CONSUMPTION AND PRODUCTION MULTIPLIER=
+	1
+	~	dmnl
+	~		|
+
+NEW TARGET G7 AFFORDABLE AND CLEAN ENERGY=
+	INITIAL TARGET G7 AFFORDABLE AND CLEAN ENERGY*TARGET G7 AFFORDABLE AND CLEAN ENERGY MULTIPLIER
+	~	fraction
+	~		|
+
+INITIAL TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE=
+	0.29
+	~	fraction
+	~		|
+
+INITIAL TARGET G8 DECENT WORK AND ECONOMIC GROWTH=
+	0.71
+	~	fraction
+	~		|
+
+INITIAL TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION=
+	1
+	~	fraction
+	~		|
+
+INITIAL TARGET G10 REDUCE INEQUALITIES=
+	0.84
+	~	fraction
+	~		|
+
+INITIAL TARGET G2 ZERO HUNGER=
+	0.39
+	~	fraction
+	~		|
+
+INITIAL TARGET G3 GOOD HEALTH AND WELL BEING=
+	0.66
+	~	fraction
+	~		|
+
+INITIAL TARGET G4 QUALITY EDUCATION=
+	0.89
+	~	fraction
+	~		|
+
+INITIAL TARGET G5 GENDER EQUALITY=
+	0.85
+	~	fraction
+	~		|
+
+INITIAL TARGET G6 CLEAN WATER AND SANITATION=
+	0.78
+	~	fraction
+	~		|
+
+INITIAL TARGET G7 AFFORDABLE AND CLEAN ENERGY=
+	0.77
+	~	fraction
+	~		|
+
+INITIAL TARGET G1 NO POVERTY=
+	0
+	~	fraction
+	~		|
+
+INITIAL TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES=
+	0.35
+	~	fraction
+	~		|
+
+changing G3 good health and well being=
+	(modified target G3 good health and well being-G3 Good Health and Well Being)/TIME TO CHANGE G3 GOOD HEALTH AND WELL BEING
+	~	fraction/year
+	~		|
+
+G11 Sustainable Cities and Communities= INTEG (
+	changing G11 sustainable cities and communities,
+		INITIAL G11 SUSTAINABLE CITIES AND COMMUNITIES)
+	~	fraction
+	~		|
+
+changing G11 sustainable cities and communities=
+	(modified target G11 sustainable cities and communities-G11 Sustainable Cities and Communities\
+		)/TIME TO CHANGE G11 SUSTAINABLE CITIES AND COMMUNITIES
+	~	fraction/year
+	~		|
+
+changing G1 no poverty=
+	(modified target G1 no poverty-G1 No Poverty)/TIME TO CHANGE G1 NO POVERTY
+	~	fraction/year
+	~		|
+
+changing G7 affordable and clean energy=
+	(modified G7 affordable and clean energy-G7 Affordable and Clean Energy)/TIME TO CHANGE G7 AFFORDABLE AND CLEAN ENERGY
+	~	fraction/year
+	~		|
+
+changing G10 reduce inequalities=
+	(modified target G10 reduce inequalities-G10 Reduce Inequalities)/TIME TO CHANGE G10 REDUCE INQUALITIES
+	~	fraction/year
+	~		|
+
+changing G2 zero hunger=
+	(modified target G2 zero hunger-G2 Zero Hunger)/TIME TO CHANGE G2 ZERO HUNGER
+	~	fraction/year
+	~		|
+
+changing G4 quality education=
+	(modified target G4 quality education-G4 Quality Education)/TIME TO CHANGE G4 QUALITY EDUCATION
+	~	fraction/year
+	~		|
+
+changing G5 gender equality=
+	(modified target G5 gender equality-G5 Gender Equality)/TIME TO CHANGE G5 GENDER EQUALITY
+	~	fraction/year
+	~		|
+
+changing G9 industry innovation and infrastructure=
+	(modified target G9 industry innovation and infrastructure-G9 Industry Innovation and Infrastructure\
+		)/TIME TO CHANGE G9 INDUSTRY INNOVATION AND INFRASTRUCTURE
+	~	fraction/year
+	~		|
+
+changing G8 decent work and economic growth=
+	(modified target G8 decent work and economic growth-G8 Decent Work and Economic Growth\
+		)/TIME TO CHANGE G8 DECENT WORK AND ECONOMIC GROWTH
+	~	fraction/year
+	~		|
+
+G10 Reduce Inequalities= INTEG (
+	changing G10 reduce inequalities,
+		INITIAL G10 REDUCE INEQUALITIES)
+	~	fraction
+	~		|
+
+TIME TO CHANGE G12 RESPONSIBLE CONSUMPTION AND PRODUCTION=
+	10
+	~	year
+	~		|
+
+TIME TO CHANGE G10 REDUCE INQUALITIES=
+	10
+	~	year
+	~		|
+
+TIME TO CHANGE G11 SUSTAINABLE CITIES AND COMMUNITIES=
+	9
+	~	year
+	~		|
+
+TIME TO CHANGE G2 ZERO HUNGER=
+	10
+	~	year
+	~		|
+
+TIME TO CHANGE G4 QUALITY EDUCATION=
+	9
+	~	year
+	~		|
+
+TIME TO CHANGE G5 GENDER EQUALITY=
+	10
+	~	year
+	~		|
+
+TIME TO CHANGE G9 INDUSTRY INNOVATION AND INFRASTRUCTURE=
+	6
+	~	year
+	~		|
+
+TIME TO CHANGE G7 AFFORDABLE AND CLEAN ENERGY=
+	10
+	~	year
+	~		|
+
+TIME TO CHANGE G1 NO POVERTY=
+	8
+	~	year
+	~		|
+
+INITIAL G12 RESPONSIBLE CONSUMPTION AND PRODUCTION=
+	0.87
+	~	fraction
+	~		|
+
+INITIAL G11 SUSTAINABLE CITIES AND COMMUNITIES=
+	0.68
+	~	fraction
+	~		|
+
+TIME TO CHANGE G3 GOOD HEALTH AND WELL BEING=
+	5
+	~	year
+	~		|
+
+TIME TO CHANGE G6 CLEAN WATER AND SANITATION=
+	6
+	~	year
+	~		|
+
+INITIAL G9 INDUSTRY INNOVATION AND INFRASTRUCTURE=
+	0.27
+	~	fraction
+	~		|
+
+INITIAL G10 REDUCE INEQUALITIES=
+	0.51
+	~	fraction
+	~		|
+
+TIME TO CHANGE G8 DECENT WORK AND ECONOMIC GROWTH=
+	3
+	~	year
+	~		|
+
+INITIAL G4 QUALITY EDUCATION=
+	0.83
+	~	fraction
+	~		|
+
+INITIAL G6 CLEAN WATER AND SANITATION=
+	0.78
+	~	fraction
+	~		|
+
+INITIAL G7 AFFORDABLE AND CLEAN ENERGY=
+	0.72
+	~	fraction
+	~		|
+
+INITIAL G8 DECENT WORK AND ECONOMIC GROWTH=
+	0.7
+	~	fraction
+	~		|
+
+INITIAL G5 GENDER EQUALITY=
+	0.63
+	~	fraction
+	~		|
+
+INITIAL G1 NO POVERTY=
+	0.85
+	~	dmnl
+	~		|
+
+INITIAL G2 ZERO HUNGER=
+	0.54
+	~	fraction
+	~		|
+
+INITIAL G3 GOOD HEALTH AND WELL BEING=
+	0.71
+	~	fraction
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 2030
+	~	year
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 2013
+	~	year
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	year [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.125
+	~	year [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G1 No Poverty
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G1 NO POVERTY,1016,152,67,27,8,131,0,0,0,0,0,0
+10,2,modified target G1 no poverty,440,335,68,25,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G1 NO POVERTY,905,480,97,28,8,131,0,0,0,0,0,0
+10,4,G1 No Poverty,907,343,51,32,3,131,0,0,0,0,0,0
+12,5,48,646,341,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(805,341)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(699,341)|
+11,8,48,749,341,6,8,34,3,0,0,1,0,0,0
+10,9,changing G1 no poverty,749,368,62,19,40,3,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(502,367)|
+1,11,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(794,463)|
+1,12,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(878,389)|
+10,13,INITIAL TARGET G1 NO POVERTY,702,116,98,30,8,131,0,0,-1,0,0,0
+10,14,target G1 no poverty,659,247,51,19,8,3,0,0,0,0,0,0
+10,15,Time,578,327,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,16,15,14,1,0,0,0,0,64,0,-1--1--1,,1|(586,298)|
+10,17,NEW TARGET G1 NO POVERTY,531,117,54,28,8,3,0,0,0,0,0,0
+1,18,17,14,1,0,0,0,0,64,0,-1--1--1,,1|(578,198)|
+1,19,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(671,164)|
+1,20,14,2,1,0,0,0,0,64,0,-1--1--1,,1|(572,268)|
+1,21,13,17,1,0,0,0,0,64,0,-1--1--1,,1|(606,79)|
+10,22,TARGET G1 NO POVERTY MULTIPLIER,353,52,86,28,8,3,0,0,0,0,0,0
+1,23,22,17,1,0,0,0,0,64,0,-1--1--1,,1|(414,61)|
+10,24,IMPLEMENTATION DATE,852,220,73,19,8,3,0,0,-1,0,0,0
+1,25,24,14,1,0,0,0,0,64,0,-1--1--1,,1|(748,203)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(1000,205)|
+10,27,progress on G2 zero hunger,298,206,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,28,progress on G5 gender equality,225,319,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,29,progress on G8 decent work and economic growth,207,442,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,30,progress on G11 sustainable cities and communities,341,531,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G9 industry innovation and infrastruture,527,514,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G13 climate action,591,452,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G17 partnerships for the goals,474,230,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,34,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(438,268)|
+1,35,27,2,1,0,0,0,0,64,0,-1--1--1,,1|(309,248)|
+1,36,28,2,1,0,0,0,0,64,0,-1--1--1,,1|(304,347)|
+1,37,29,2,1,0,0,0,0,64,0,-1--1--1,,1|(315,425)|
+1,38,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(387,490)|
+1,39,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(502,476)|
+1,40,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(522,429)|
+10,41,progress on G1 no poverty,1071,262,60,19,8,3,0,0,0,0,0,0
+1,42,4,41,1,0,0,0,0,64,0,-1--1--1,,1|(966,349)|
+1,43,1,41,1,0,0,0,0,64,0,-1--1--1,,1|(1045,174)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G2 Zero Hunger
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G2 ZERO HUNGER,1028,97,89,28,8,131,0,0,0,0,0,0
+10,2,modified target G2 zero hunger,409,360,81,30,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G2 ZERO HUNGER,911,503,72,28,8,3,0,0,0,0,0,0
+10,4,INITIAL TARGET G2 ZERO HUNGER,611,136,76,29,8,131,0,0,-1,0,0,0
+10,5,G2 Zero Hunger,899,367,59,34,3,131,0,0,0,0,0,0
+12,6,48,659,378,10,8,0,3,0,0,-1,0,0,0
+1,7,9,5,4,0,0,22,0,0,0,-1--1--1,,1|(800,378)|
+1,8,9,6,100,0,0,22,0,0,0,-1--1--1,,1|(708,378)|
+11,9,48,754,378,6,8,34,3,0,0,1,0,0,0
+10,10,changing G2 zero hunger,754,405,67,19,40,3,0,0,-1,0,0,0
+1,11,2,10,1,0,0,0,0,64,0,-1--1--1,,1|(473,409)|
+1,12,3,10,1,0,0,0,0,64,0,-1--1--1,,1|(833,500)|
+1,13,5,10,1,0,0,0,0,64,0,-1--1--1,,1|(869,433)|
+10,14,target G2 zero hunger,575,273,56,19,8,3,0,0,0,0,0,0
+10,15,NEW TARGET G2 ZERO HUNGER,426,148,72,28,8,3,0,0,0,0,0,0
+10,16,Time,571,390,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,14,1,0,0,0,0,64,0,-1--1--1,,1|(569,361)|
+1,18,14,2,1,0,0,0,0,64,0,-1--1--1,,1|(516,294)|
+1,19,15,14,1,0,0,0,0,64,0,-1--1--1,,1|(475,207)|
+1,20,4,14,1,0,0,0,0,64,0,-1--1--1,,1|(566,173)|
+1,21,4,15,1,0,0,0,0,64,0,-1--1--1,,1|(543,108)|
+10,22,TARGET G2 ZERO HUNGER MULTIPLIER,231,65,87,28,8,3,0,0,0,0,0,0
+1,23,22,15,1,0,0,0,0,64,0,-1--1--1,,1|(302,71)|
+1,24,1,5,1,0,0,0,0,64,1,-1--1--1,,1|(1003,165)|
+10,25,IMPLEMENTATION DATE,817,236,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,26,25,14,0,0,0,0,0,64,0,-1--1--1,,1|(691,254)|
+10,27,progress on G2 zero hunger,1086,272,50,19,8,3,0,0,0,0,0,0
+1,28,5,27,1,0,0,0,0,64,0,-1--1--1,,1|(983,356)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1045,135)|
+10,30,progress on G3 good health and well being,232,203,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G5 gender equality,160,288,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G6 clean water and sanitation,140,376,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G8 decent work and economic growth,168,461,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G9 industry innovation and infrastruture,221,542,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G11 sustainable cities and communities,330,613,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G10 reduce inequalities,484,564,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G12 responsible consumption and production,551,493,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G13 climate action,393,229,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,39,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(361,281)|
+1,40,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(255,256)|
+1,41,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(241,336)|
+1,42,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(229,389)|
+1,43,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(269,451)|
+1,44,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(346,476)|
+1,45,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(382,520)|
+1,46,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(451,474)|
+1,47,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(494,456)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G3 Good Health and Well Being
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G3 GOOD HEALTH AND WELL BEING,977,111,84,43,8,131,0,0,0,0,0,0
+10,2,TIME TO CHANGE G3 GOOD HEALTH AND WELL BEING,649,479,96,30,8,131,0,0,0,0,0,0
+10,3,G3 Good Health and Well Being,747,323,55,32,3,131,0,0,0,0,0,0
+12,4,48,512,325,10,8,0,3,0,0,-1,0,0,0
+1,5,7,3,4,0,0,22,0,0,0,-1--1--1,,1|(652,325)|
+1,6,7,4,100,0,0,22,0,0,0,-1--1--1,,1|(561,325)|
+11,7,48,607,325,6,8,34,3,0,0,1,0,0,0
+10,8,changing G3 good health and well being,607,363,73,30,40,131,0,0,-1,0,0,0
+1,9,2,8,1,0,0,0,0,64,0,-1--1--1,,1|(594,440)|
+1,10,3,8,1,0,0,0,0,64,0,-1--1--1,,1|(739,354)|
+10,11,INITIAL TARGET G3 GOOD HEALTH AND WELL BEING,676,56,83,34,8,131,0,0,-1,0,0,0
+10,12,modified target G3 good health and well being,372,251,72,29,8,131,0,0,0,0,0,0
+1,13,12,8,1,0,0,0,0,64,0,-1--1--1,,1|(431,319)|
+10,14,NEW TARGET G3 GOOD HEALTH AND WELL BEING,469,77,76,33,8,131,0,0,0,0,0,0
+10,15,target G3 good health and well being,559,185,61,28,8,131,0,0,0,0,0,0
+1,16,11,15,1,0,0,0,0,64,0,-1--1--1,,1|(584,108)|
+1,17,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(491,132)|
+10,18,Time,563,257,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,19,18,15,1,0,0,0,0,64,0,-1--1--1,,1|(540,209)|
+1,20,15,12,1,0,0,0,0,64,0,-1--1--1,,1|(439,206)|
+1,21,11,14,1,0,0,0,0,64,0,-1--1--1,,1|(577,33)|
+10,22,TARGET G3 GOOD HEALTH AND WELL BEING MULTIPLIER,253,49,107,30,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(333,32)|
+10,24,IMPLEMENTATION DATE,759,175,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(664,209)|
+1,26,1,3,1,0,0,0,0,64,1,-1--1--1,,1|(944,163)|
+10,27,progress on G3 good health and well being,963,266,68,19,8,3,0,0,0,0,0,0
+1,28,3,27,1,0,0,0,0,64,0,-1--1--1,,1|(846,341)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1006,154)|
+10,30,progress on G2 zero hunger,234,136,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G4 quality education,125,191,58,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G5 gender equality,75,283,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G6 clean water and sanitation,103,381,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G11 sustainable cities and communities,164,494,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G12 responsible consumption and production,324,553,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G10 reduce inequalities,404,481,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G16 peace justice and strong institutions,447,404,80,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,38,30,12,1,0,0,0,0,64,0,-1--1--1,,1|(268,183)|
+1,39,31,12,1,0,0,0,0,64,0,-1--1--1,,1|(205,226)|
+1,40,32,12,1,0,0,0,0,64,0,-1--1--1,,1|(208,268)|
+1,41,33,12,1,0,0,0,0,64,0,-1--1--1,,1|(209,314)|
+1,42,34,12,1,0,0,0,0,64,0,-1--1--1,,1|(257,351)|
+1,43,35,12,1,0,0,0,0,64,0,-1--1--1,,1|(297,393)|
+1,44,36,12,1,0,0,0,0,64,0,-1--1--1,,1|(366,437)|
+1,45,37,12,1,0,0,0,0,64,0,-1--1--1,,1|(411,375)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G4 Quality Education
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G4 QUALITY EDUCATION,996,157,58,28,8,3,0,0,0,0,0,0
+10,2,modified target G4 quality education,372,427,76,23,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G4 QUALITY EDUCATION,870,580,69,28,8,3,0,0,0,0,0,0
+10,4,G4 Quality Education,897,452,51,34,3,131,0,0,0,0,0,0
+12,5,48,642,454,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(800,454)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(697,454)|
+11,8,48,749,454,6,8,34,3,0,0,1,0,0,0
+10,9,changing G4 quality education,749,481,69,19,40,3,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(471,481)|
+1,11,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(769,547)|
+1,12,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(859,506)|
+10,13,INITIAL TARGET G4 QUALITY EDUCATION,692,157,80,32,8,131,0,0,-1,0,0,0
+10,14,NEW TARGET G4 QUALITY EDUCATION,477,177,58,28,8,3,0,0,0,0,0,0
+10,15,target G4 quality education,631,316,57,19,8,3,0,0,0,0,0,0
+10,16,Time,565,392,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(561,367)|
+1,18,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(642,216)|
+1,19,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(549,260)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(561,303)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(591,149)|
+10,22,TARGET G4 QUALITY EDUCATION MULTIPLIER,277,96,91,28,8,3,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(418,94)|
+10,24,IMPLEMENTATION DATE,836,266,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(746,313)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(997,231)|
+10,27,progress on G4 quality education,1051,334,54,19,8,3,0,0,0,0,0,0
+1,28,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1041,206)|
+1,29,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(982,436)|
+10,30,progress on G10 reduce inequalities,220,330,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G5 gender equality,167,421,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G8 decent work and economic growth,181,525,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,33,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(263,353)|
+1,34,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(232,428)|
+1,35,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(263,513)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G5 Gender Equality
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G5 GENDER EQUALITY,1043,131,104,34,8,131,0,0,0,0,0,0
+10,2,modified target G5 gender equality,405,354,109,34,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G5 GENDER EQUALITY,890,529,115,34,8,131,0,0,0,0,0,0
+10,4,INITIAL TARGET G5 GENDER EQUALITY,733,108,101,46,8,131,0,0,-1,0,0,0
+10,5,G5 Gender Equality,897,376,64,47,3,131,0,0,0,0,0,0
+12,6,48,632,373,10,8,0,3,0,0,-1,0,0,0
+1,7,9,5,4,0,0,22,0,0,0,-1--1--1,,1|(788,373)|
+1,8,9,6,100,0,0,22,0,0,0,-1--1--1,,1|(686,373)|
+11,9,48,737,373,6,8,34,3,0,0,1,0,0,0
+10,10,changing G5 gender equality,737,413,72,32,40,131,0,0,-1,0,0,0
+1,11,2,10,1,0,0,0,0,64,0,-1--1--1,,1|(436,398)|
+1,12,3,10,1,0,0,0,0,64,0,-1--1--1,,1|(772,478)|
+1,13,5,10,1,0,0,0,0,64,0,-1--1--1,,1|(871,399)|
+10,14,NEW TARGET G5 GENDER EQUALITY,456,136,93,41,8,131,0,0,0,0,0,0
+10,15,target G5 gender equality,611,228,86,33,8,131,0,0,0,0,0,0
+10,16,Time,538,311,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(539,287)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(507,127)|
+1,19,4,15,1,0,0,0,0,64,0,-1--1--1,,1|(618,148)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(489,217)|
+1,21,4,14,1,0,0,0,0,64,0,-1--1--1,,1|(597,70)|
+10,22,TARGET G5 GENDER EQUALITY MULTIPLIER,233,67,109,39,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(306,59)|
+10,24,IMPLEMENTATION DATE,868,221,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(773,176)|
+1,26,1,5,1,0,0,0,0,64,1,-1--1--1,,1|(1044,189)|
+10,27,progress on G5 gender equality,1128,280,50,19,8,3,0,0,0,0,0,0
+1,28,5,27,1,0,0,0,0,64,0,-1--1--1,,1|(1016,380)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1080,162)|
+10,30,progress on G3 good health and well being,135,307,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G4 quality education,93,389,58,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G8 decent work and economic growth,140,500,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G9 industry innovation and infrastruture,242,572,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G16 peace justice and strong institutions,391,622,80,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G17 partnerships for the goals,546,528,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G10 reduce inequalities,422,219,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G1 no poverty,263,184,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G2 zero hunger,176,232,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,39,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(382,267)|
+1,40,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(276,237)|
+1,41,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(223,277)|
+1,42,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(213,338)|
+1,43,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(206,399)|
+1,44,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(258,429)|
+1,45,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(288,479)|
+1,46,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(360,546)|
+1,47,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(424,502)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G6 Clean Water and Sanitation
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G6 CLEAN WATER AND SANITATION,1051,117,89,32,8,131,0,0,0,0,0,0
+10,2,modified target G6 clean water and sanitation,451,383,77,30,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G6 CLEAN WATER AND SANITATION,942,537,94,29,8,131,0,0,0,0,0,0
+10,4,INITIAL TARGET G6 CLEAN WATER AND SANITATION,748,97,116,23,8,131,0,0,-1,0,0,0
+10,5,NEW TARGET G6 CLEAN WATER AND SANITATION,470,125,111,25,8,131,0,0,0,0,0,0
+10,6,target G6 clean water and sanitation,709,230,75,30,8,131,0,0,0,0,0,0
+1,7,4,6,1,0,0,0,0,64,0,-1--1--1,,1|(687,138)|
+1,8,5,6,1,0,0,0,0,64,0,-1--1--1,,1|(553,168)|
+1,9,6,2,1,0,0,0,0,64,0,-1--1--1,,1|(539,237)|
+10,10,Time,599,314,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,11,10,6,1,0,0,0,0,64,0,-1--1--1,,1|(611,286)|
+10,12,G6 Clean Water and Sanitation,929,419,48,37,3,131,0,0,0,0,0,0
+12,13,48,695,423,10,8,0,3,0,0,-1,0,0,0
+1,14,16,12,4,0,0,22,0,0,0,-1--1--1,,1|(840,423)|
+1,15,16,13,100,0,0,22,0,0,0,-1--1--1,,1|(746,423)|
+11,16,48,793,423,6,8,34,3,0,0,1,0,0,0
+10,17,change in G6 clean water and sanitation,793,456,69,25,40,131,0,0,-1,0,0,0
+1,18,2,17,1,0,0,0,0,64,0,-1--1--1,,1|(522,448)|
+1,19,3,17,1,0,0,0,0,64,0,-1--1--1,,1|(834,502)|
+1,20,12,17,1,0,0,0,0,64,0,-1--1--1,,1|(906,446)|
+1,21,4,5,1,0,0,0,0,64,0,-1--1--1,,1|(645,81)|
+10,22,TARGET G6 CLEAN WATER AND SANITATION MULTIPLIER,219,55,103,36,8,131,0,0,0,0,0,0
+1,23,22,5,1,0,0,0,0,64,0,-1--1--1,,1|(268,53)|
+10,24,IMPLEMENTATION DATE,883,209,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,6,1,0,0,0,0,64,0,-1--1--1,,1|(781,179)|
+1,26,1,12,1,0,0,0,0,64,1,-1--1--1,,1|(1049,180)|
+10,27,progress on G6 clean water and sanitation,1121,301,68,19,8,3,0,0,0,0,0,0
+1,28,12,27,1,0,0,0,0,64,0,-1--1--1,,1|(1016,391)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1093,182)|
+10,30,progress on G2 zero hunger,383,214,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G3 good health and well being,240,249,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G11 sustainable cities and communities,162,317,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G9 industry innovation and infrastruture,149,405,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G12 responsible consumption and production,170,503,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G15 life on land,467,618,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G10 reduce inequalities,590,556,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,37,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(384,263)|
+1,38,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(278,299)|
+1,39,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(246,351)|
+1,40,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(261,418)|
+1,41,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(288,479)|
+1,42,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(439,544)|
+1,43,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(508,511)|
+10,44,progress on G14 life below water,334,578,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,45,44,2,0,0,0,0,0,64,0,-1--1--1,,1|(385,491)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G7 Affordable and Clean Energy
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G7 AFFORDABLE AND CLEAN ENERGY,1032,134,83,41,8,131,0,0,0,0,0,0
+10,2,modified G7 affordable and clean energy,380,342,73,30,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G7 AFFORDABLE AND CLEAN ENERGY,875,492,89,30,8,131,0,0,0,0,0,0
+10,4,INITIAL TARGET G7 AFFORDABLE AND CLEAN ENERGY,675,124,96,28,8,131,0,0,-1,0,0,0
+10,5,G7 Affordable and Clean Energy,853,362,50,32,3,131,0,0,0,0,0,0
+12,6,48,605,369,10,8,0,3,0,0,-1,0,0,0
+1,7,9,5,4,0,0,22,0,0,0,-1--1--1,,1|(759,369)|
+1,8,9,6,100,0,0,22,0,0,0,-1--1--1,,1|(659,369)|
+11,9,48,709,369,6,8,34,3,0,0,1,0,0,0
+10,10,changing G7 affordable and clean energy,709,405,72,28,40,131,0,0,-1,0,0,0
+1,11,2,10,1,0,0,0,0,64,0,-1--1--1,,1|(396,369)|
+1,12,3,10,1,0,0,0,0,64,0,-1--1--1,,1|(800,513)|
+1,13,5,10,1,0,0,0,0,64,0,-1--1--1,,1|(800,413)|
+10,14,NEW TARGET G7 AFFORDABLE AND CLEAN ENERGY,466,156,75,39,8,131,0,0,0,0,0,0
+10,15,target G7 affordable and clean energy,666,242,68,21,8,131,0,0,0,0,0,0
+10,16,Time,570,306,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(611,290)|
+1,18,4,15,1,0,0,0,0,64,0,-1--1--1,,1|(647,171)|
+1,19,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(535,170)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(609,232)|
+1,21,4,14,1,0,0,0,0,64,0,-1--1--1,,1|(550,85)|
+10,22,TARGET G7 AFFORDABLE AND CLEAN ENERGY MULTIPLIER,222,79,107,43,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(304,58)|
+10,24,IMPLEMENTATION DATE,886,191,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(775,183)|
+1,26,1,5,1,0,0,0,0,64,1,-1--1--1,,1|(1030,198)|
+10,27,progress on G7 affordable and clean energy,1103,304,65,28,8,3,0,0,0,0,0,0
+1,28,5,27,1,0,0,0,0,64,0,-1--1--1,,1|(928,383)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1061,169)|
+10,30,progress on G11 sustainable cities and communities,301,208,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G9 industry innovation and infrastruture,189,278,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G12 responsible consumption and production,120,367,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G13 climate action,190,497,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,34,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(339,254)|
+1,35,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(266,300)|
+1,36,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(206,352)|
+1,37,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(225,429)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G8 Decent Work and Economic Growth
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G8 DECENT WORK AND ECONOMIC GROWTH,1095,161,82,39,8,131,0,0,0,0,0,0
+10,2,modified target G8 decent work and economic growth,453,360,76,30,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G8 DECENT WORK AND ECONOMIC GROWTH,947,518,90,36,8,131,0,0,0,0,0,0
+10,4,INITIAL TARGET G8 DECENT WORK AND ECONOMIC GROWTH,733,119,90,42,8,131,0,0,-1,0,0,0
+10,5,G8 Decent Work and Economic Growth,936,388,67,43,3,131,0,0,0,0,0,0
+12,6,48,677,381,10,8,0,3,0,0,-1,0,0,0
+1,7,9,5,4,0,0,22,0,0,0,-1--1--1,,1|(823,381)|
+1,8,9,6,100,0,0,22,0,0,0,-1--1--1,,1|(726,381)|
+11,9,48,772,381,6,8,34,3,0,0,1,0,0,0
+10,10,changing G8 decent work and economic growth,772,418,75,29,40,131,0,0,-1,0,0,0
+1,11,3,10,1,0,0,0,0,64,0,-1--1--1,,1|(808,494)|
+1,12,5,10,1,0,0,0,0,64,0,-1--1--1,,1|(877,453)|
+1,13,2,10,1,0,0,0,0,64,0,-1--1--1,,1|(514,410)|
+10,14,NEW TARGET G8 DECENT WORK AND ECONOMIC GROWTH,530,127,83,43,8,131,0,0,0,0,0,0
+10,15,target G8 decent work and economic growth,761,244,62,33,8,131,0,0,0,0,0,0
+10,16,Time,610,321,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,4,15,1,0,0,0,0,64,0,-1--1--1,,1|(697,158)|
+1,18,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(656,280)|
+1,19,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(596,167)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(659,228)|
+1,21,4,14,1,0,0,0,0,64,0,-1--1--1,,1|(662,64)|
+10,22,TARGET G8 DECENT WORK AND ECONOMIC GROWTH MULTIPLIER,275,68,105,39,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(348,52)|
+1,24,1,5,1,0,0,0,0,64,1,-1--1--1,,1|(1050,239)|
+10,25,IMPLEMENTATION DATE,927,182,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,26,25,15,0,0,0,0,0,64,0,-1--1--1,,1|(856,208)|
+10,27,progress on G8 decent work and economic growth,1130,324,87,19,8,3,0,0,0,0,0,0
+1,28,5,27,1,0,0,0,0,64,0,-1--1--1,,1|(1043,393)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1129,220)|
+10,30,progress on G1 no poverty,475,218,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G2 zero hunger,353,175,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G4 quality education,222,197,58,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G5 gender equality,147,267,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G11 sustainable cities and communities,90,352,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G9 industry innovation and infrastruture,113,436,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G12 responsible consumption and production,183,523,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G16 peace justice and strong institutions,543,627,80,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G17 partnerships for the goals,612,547,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G10 reduce inequalities,596,490,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,40,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(448,250)|
+1,41,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(363,218)|
+1,42,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(271,243)|
+1,43,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(282,307)|
+1,44,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(259,355)|
+1,45,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(280,398)|
+1,46,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(310,446)|
+1,47,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(475,558)|
+1,48,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(502,495)|
+1,49,39,2,1,0,0,0,0,64,0,-1--1--1,,1|(530,465)|
+10,50,progress on G14 life below water,333,602,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,51,50,2,1,0,0,0,0,64,0,-1--1--1,,1|(351,528)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G9 Industry Innovation and Infrastructure
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G9 INDUSTRY INNOVATION AND INFRASTRUCTURE,1012,130,101,29,8,131,0,0,0,0,0,0
+10,2,TIME TO CHANGE G9 INDUSTRY INNOVATION AND INFRASTRUCTURE,859,504,99,43,8,131,0,0,0,0,0,0
+10,3,modified target G9 industry innovation and infrastructure,365,353,81,33,8,131,0,0,0,0,0,0
+10,4,G9 Industry Innovation and Infrastructure,831,351,63,41,3,131,0,0,0,0,0,0
+12,5,48,590,352,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(729,352)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(639,352)|
+11,8,48,684,352,6,8,34,3,0,0,1,0,0,0
+10,9,changing G9 industry innovation and infrastructure,684,392,68,32,40,131,0,0,-1,0,0,0
+1,10,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(794,392)|
+1,11,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(732,481)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(420,389)|
+10,13,INITIAL TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE,702,113,101,30,8,131,0,0,-1,0,0,0
+10,14,NEW TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE,447,145,98,40,8,131,0,0,0,0,0,0
+10,15,target G9 industry innovation and infrastructure,658,212,70,31,8,131,0,0,0,0,0,0
+10,16,Time,571,277,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(591,234)|
+1,18,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(670,130)|
+1,19,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(509,174)|
+1,20,15,3,1,0,0,0,0,64,0,-1--1--1,,1|(552,211)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(582,81)|
+10,22,TARGET G9 INDUSTRY INNOVATION AND INFRASTRUCTURE MULTIPLIER,213,61,106,42,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(314,48)|
+10,24,IMPLEMENTATION DATE,862,183,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(751,164)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(989,195)|
+10,27,progress on G9 industry innovation and infrastruture,1055,286,85,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(916,381)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1058,203)|
+10,30,progress on G1 no poverty,295,197,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G2 zero hunger,205,287,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G5 gender equality,119,377,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G6 clean water and sanitation,102,473,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G7 affordable and clean energy,138,563,65,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G8 decent work and economic growth,161,662,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G11 sustainable cities and communities,340,674,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G12 responsible consumption and production,477,630,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G13 climate action,569,560,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G14 life below water,596,505,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,40,progress on G17 partnerships for the goals,522,447,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,41,30,3,1,0,0,0,0,64,0,-1--1--1,,1|(297,245)|
+1,42,31,3,1,0,0,0,0,64,0,-1--1--1,,1|(243,309)|
+1,43,32,3,1,0,0,0,0,64,0,-1--1--1,,1|(187,375)|
+1,44,33,3,1,0,0,0,0,64,0,-1--1--1,,1|(217,431)|
+1,45,34,3,1,0,0,0,0,64,0,-1--1--1,,1|(251,486)|
+1,46,35,3,1,0,0,0,0,64,0,-1--1--1,,1|(213,616)|
+1,47,36,3,1,0,0,0,0,64,0,-1--1--1,,1|(351,522)|
+1,48,37,3,1,0,0,0,0,64,0,-1--1--1,,1|(422,552)|
+1,49,38,3,1,0,0,0,0,64,0,-1--1--1,,1|(464,523)|
+1,50,39,3,1,0,0,0,0,64,0,-1--1--1,,1|(507,507)|
+1,51,40,3,1,0,0,0,0,64,0,-1--1--1,,1|(451,438)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G10 Reduce Inequalities
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G10 REDUCE INEQUALITIES,1008,167,80,29,8,131,0,0,0,0,0,0
+10,2,TIME TO CHANGE G10 REDUCE INQUALITIES,893,521,94,30,8,131,0,0,0,0,0,0
+10,3,modified target G10 reduce inequalities,389,375,82,30,8,131,0,0,0,0,0,0
+10,4,G10 Reduce Inequalities,885,380,56,37,3,131,0,0,0,0,0,0
+12,5,48,625,377,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(775,377)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(672,377)|
+11,8,48,716,377,6,8,34,3,0,0,1,0,0,0
+10,9,changing G10 reduce inequalities,716,404,62,19,40,3,0,0,-1,0,0,0
+1,10,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(427,423)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(867,445)|
+1,12,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(762,511)|
+1,13,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(929,246)|
+10,14,INITIAL TARGET G10 REDUCE INEQUALITIES,609,159,105,26,8,131,0,0,-1,0,0,0
+10,15,NEW TARGET G10 REDUCE INEQUALITIES,354,173,75,28,8,3,0,0,0,0,0,0
+10,16,target G10 reduce inequalities,601,258,63,27,8,131,0,0,0,0,0,0
+10,17,Time,557,333,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,18,17,16,1,0,0,0,0,64,0,-1--1--1,,1|(547,306)|
+1,19,15,16,1,0,0,0,0,64,0,-1--1--1,,1|(481,174)|
+1,20,14,16,1,0,0,0,0,64,0,-1--1--1,,1|(611,186)|
+1,21,16,3,1,0,0,0,0,64,0,-1--1--1,,1|(521,255)|
+1,22,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(554,139)|
+10,23,TARGET G10 REDUCE INEQUALITIES MULTIPLIER,163,80,86,28,8,3,0,0,0,0,0,0
+1,24,23,15,1,0,0,0,0,64,0,-1--1--1,,1|(259,79)|
+10,25,IMPLEMENTATION DATE,791,223,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,26,25,16,1,0,0,0,0,64,0,-1--1--1,,1|(687,212)|
+10,27,progress on G10 reduce inequalities,1065,322,58,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(995,415)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1078,223)|
+10,30,progress on G1 no poverty,284,236,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G2 zero hunger,175,279,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G3 good health and well being,96,338,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G4 quality education,57,409,58,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G5 gender equality,77,463,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G6 clean water and sanitation,95,520,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G8 decent work and economic growth,139,582,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G12 responsible consumption and production,237,644,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G13 climate action,414,614,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G14 life below water,517,577,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,40,progress on G16 peace justice and strong institutions,516,515,80,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,41,progress on G17 partnerships for the goals,430,233,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,42,41,3,1,0,0,0,0,64,0,-1--1--1,,1|(388,269)|
+1,43,30,3,1,0,0,0,0,64,0,-1--1--1,,1|(311,288)|
+1,44,31,3,1,0,0,0,0,64,0,-1--1--1,,1|(262,329)|
+1,45,32,3,1,0,0,0,0,64,0,-1--1--1,,1|(231,354)|
+1,46,33,3,1,0,0,0,0,64,0,-1--1--1,,1|(204,394)|
+1,47,34,3,1,0,0,0,0,64,0,-1--1--1,,1|(191,440)|
+1,48,35,3,1,0,0,0,0,64,0,-1--1--1,,1|(198,476)|
+1,49,36,3,1,0,0,0,0,64,0,-1--1--1,,1|(222,526)|
+1,50,37,3,1,0,0,0,0,64,0,-1--1--1,,1|(308,516)|
+1,51,38,3,1,0,0,0,0,64,0,-1--1--1,,1|(375,525)|
+1,52,39,3,1,0,0,0,0,64,0,-1--1--1,,1|(438,534)|
+1,53,40,3,1,0,0,0,0,64,0,-1--1--1,,1|(436,475)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G11 Sustaiinable Cities and Communities
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G11 SUSTAINABLE CITIES AND COMMUNITIES,1057,162,89,34,8,131,0,0,0,0,0,0
+10,2,modified target G11 sustainable cities and communities,421,352,89,35,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G11 SUSTAINABLE CITIES AND COMMUNITIES,873,513,92,31,8,131,0,0,0,0,0,0
+10,4,G11 Sustainable Cities and Communities,894,343,53,37,3,131,0,0,0,0,0,0
+12,5,48,651,350,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(799,350)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(703,350)|
+11,8,48,751,350,6,8,34,3,0,0,1,0,0,0
+10,9,changing G11 sustainable cities and communities,751,389,85,31,40,131,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(460,367)|
+1,11,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(744,472)|
+1,12,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(870,396)|
+1,13,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(963,219)|
+10,14,INITIAL TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES,652,114,104,30,8,131,0,0,-1,0,0,0
+10,15,NEW TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES,369,139,87,36,8,131,0,0,0,0,0,0
+10,16,target G11 suatainable cities and communities,617,215,82,26,8,131,0,0,0,0,0,0
+10,17,Time,558,293,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,18,17,16,1,0,0,0,0,64,0,-1--1--1,,1|(553,268)|
+1,19,15,16,1,0,0,0,0,64,0,-1--1--1,,1|(489,143)|
+1,20,14,16,1,0,0,0,0,64,0,-1--1--1,,1|(609,141)|
+1,21,16,2,1,0,0,0,0,64,0,-1--1--1,,1|(468,212)|
+1,22,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(536,96)|
+10,23,TARGET G11 SUSTAINABLE CITIES AND COMMUNITIES MULTIPLIER,184,73,112,41,8,131,0,0,0,0,0,0
+1,24,23,15,1,0,0,0,0,64,0,-1--1--1,,1|(264,70)|
+10,25,IMPLEMENTATION DATE,826,179,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,26,25,16,1,0,0,0,0,64,0,-1--1--1,,1|(715,165)|
+10,27,progress on G11 sustainable cities and communities,1086,308,66,28,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(971,386)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1088,206)|
+10,30,progress on G1 no poverty,361,211,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G2 zero hunger,227,248,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G3 good health and well being,110,282,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G6 clean water and sanitation,109,357,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G8 decent work and economic growth,54,420,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G7 affordable and clean energy,84,500,65,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G9 industry innovation and infrastruture,140,577,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G13 climate action,228,635,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G14 life below water,361,640,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G15 life on land,496,619,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,40,progress on G17 partnerships for the goals,583,498,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,41,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(356,264)|
+1,42,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(302,277)|
+1,43,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(250,312)|
+1,44,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(259,361)|
+1,45,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(204,401)|
+1,46,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(208,461)|
+1,47,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(255,517)|
+1,48,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(339,546)|
+1,49,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(390,597)|
+1,50,39,2,1,0,0,0,0,64,0,-1--1--1,,1|(487,502)|
+1,51,40,2,1,0,0,0,0,64,0,-1--1--1,,1|(514,426)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G12 Responsible Consumption and Production
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G12 RESPONSIBLE CONSUMPTION AND PRODUCTION,1032,158,99,51,8,131,0,0,0,0,0,0
+10,2,modified target G12 responaible consumption and production,345,375,96,30,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G12 RESPONSIBLE CONSUMPTION AND PRODUCTION,841,545,108,38,8,131,0,0,0,0,0,0
+10,4,G12 Responsible Consumption and Production,818,372,66,42,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(713,366)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(624,366)|
+11,8,48,669,366,6,8,34,3,0,0,1,0,0,0
+10,9,changing G12 responsible consumption and production,669,412,90,38,40,131,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(361,397)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(774,416)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(697,478)|
+10,13,INITIAL TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION,756,144,98,41,8,131,0,0,-1,0,0,0
+10,14,NEW TARGET G12 RESPONSIBLE CONSUMPTION AND PRODUCTION,461,189,88,38,8,131,0,0,0,0,0,0
+10,15,target G12 responsible consumption and production,596,280,83,29,8,131,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(517,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,162)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(495,269)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G12 RESPONISIBLE CONSUMPTION AND PRODUCTION MULTIPLIER,250,106,113,42,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,210)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(965,207)|
+10,27,progress on G12 responsible consumption and production,1059,323,78,28,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(921,412)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1056,198)|
+10,30,progress on G2 zero hunger,330,243,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G3 good health and well being,180,237,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G6 clean water and sanitation,93,291,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G8 decent work and economic growth,57,360,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G7 affordable and clean energy,60,444,65,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G9 industry innovation and infrastruture,95,517,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G13 climate action,178,565,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G14 life below water,264,629,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G15 life on land,367,577,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G17 partnerships for the goals,417,519,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,40,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(314,297)|
+1,41,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(250,296)|
+1,42,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(185,306)|
+1,43,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(171,340)|
+1,44,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(141,401)|
+1,45,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(161,459)|
+1,46,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(222,470)|
+1,47,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(256,554)|
+1,48,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(320,515)|
+1,49,39,2,1,0,0,0,0,64,0,-1--1--1,,1|(368,483)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G13 Climate Action
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G13 CLIMATE ACTION,1001,140,71,28,8,3,0,0,0,0,0,0
+10,2,modified target G13 climate action,330,370,48,28,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G13 CLIMATE ACTION,804,535,71,28,8,3,0,0,0,0,0,0
+10,4,G13 Climate Action,828,365,55,32,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(724,366)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(624,366)|
+11,8,48,669,366,6,8,34,3,0,0,1,0,0,0
+10,9,changing G13 climate action,669,393,48,28,40,3,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(361,397)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(789,432)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(697,478)|
+10,13,INITIAL TARGET G13 CLIMATE ACTION,729,131,71,28,8,3,0,0,-1,0,0,0
+10,14,NEW TARGET G13 CLIMATE ACTION,444,179,71,28,8,3,0,0,0,0,0,0
+10,15,target G13 climate action,581,270,68,19,8,3,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(517,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,162)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(495,269)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G13 CLIMATE ACTION MULTIPLIER,242,104,112,31,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,210)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(967,209)|
+10,27,progress on G13 climate action,995,304,54,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(886,377)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1024,201)|
+10,30,progress on G1 no poverty,299,235,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G2 zero hunger,162,247,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G11 sustainable cities and communities,70,310,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G7 affordable and clean energy,63,378,65,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G9 industry innovation and infrastruture,98,444,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G12 responsible consumption and production,128,530,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G14 life below water,181,617,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G15 life on land,329,621,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G17 partnerships for the goals,445,584,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G10 reduce inequalities,497,511,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,40,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(332,325)|
+1,41,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(227,276)|
+1,42,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(166,301)|
+1,43,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(143,363)|
+1,44,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(181,401)|
+1,45,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(181,468)|
+1,46,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(228,511)|
+1,47,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(297,561)|
+1,48,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(369,527)|
+1,49,39,2,1,0,0,0,0,64,0,-1--1--1,,1|(394,491)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G14 Life Below Water
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G14 LIFE BELOW WATER,1004,135,71,28,8,3,0,0,0,0,0,0
+10,2,modified target G14 life below water,330,370,48,28,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G14 LIFE BELOW WATER,804,535,71,28,8,3,0,0,0,0,0,0
+10,4,G14 Life Below Water,807,362,55,32,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(714,368)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(625,368)|
+11,8,48,671,368,6,8,34,3,0,0,1,0,0,0
+10,9,changing G14 life below water,671,404,48,28,40,3,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(360,398)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(778,419)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(702,483)|
+10,13,INITIAL TARGET G14 LIFE BELOW WATER,729,131,71,28,8,3,0,0,-1,0,0,0
+10,14,NEW TARGET G14 LIFE BELOW WATER,444,179,71,28,8,3,0,0,0,0,0,0
+10,15,target G14 life below water,581,270,68,19,8,3,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(517,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,162)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(495,269)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G14 LIFE BELOW WATER MULTIPLIER,235,92,105,19,8,3,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,210)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(965,207)|
+10,27,progress on G14 life below water,994,287,65,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(864,367)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1012,175)|
+10,30,progress on G6 clean water and sanitation,362,228,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G8 decent work and economic growth,214,227,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G11 sustainable cities and communities,102,269,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G9 industry innovation and infrastruture,59,351,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G12 responsible consumption and production,96,414,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G13 climate action,161,490,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G15 life on land,229,586,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G17 partnerships for the goals,357,606,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G10 reduce inequalities,479,526,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,39,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(345,258)|
+1,40,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(260,273)|
+1,41,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(174,286)|
+1,42,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(160,346)|
+1,43,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(240,381)|
+1,44,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(201,430)|
+1,45,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(232,477)|
+1,46,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(290,514)|
+1,47,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(392,502)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G15 Life on Land
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G15 LIFE ON LAND,1004,135,71,28,8,3,0,0,0,0,0,0
+10,2,modified target G15 life on land,330,370,48,28,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G15 LIFE ON LAND,804,535,71,28,8,3,0,0,0,0,0,0
+10,4,G15 Life on Land,805,363,53,33,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(713,366)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(624,366)|
+11,8,48,669,366,6,8,34,3,0,0,1,0,0,0
+10,9,changing G15 life on land,669,393,48,28,40,3,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(361,397)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(774,416)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(697,478)|
+10,13,INITIAL TARGET G15 LIFE ON LAND,729,131,71,28,8,3,0,0,-1,0,0,0
+10,14,NEW TARGET G15 LIFE ON LAND,444,179,71,28,8,3,0,0,0,0,0,0
+10,15,target G15 life on land,581,270,68,19,8,3,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(517,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,162)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(495,269)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G15 LIFE ON LAND MULTIPLIER,235,92,105,19,8,3,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,210)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(965,207)|
+10,27,progress on G15 life on land,1036,293,54,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(911,408)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1029,173)|
+10,30,progress on G6 clean water and sanitation,305,220,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G11 sustainable cities and communities,195,278,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G12 responsible consumption and production,116,364,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G13 climate action,99,434,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G14 life below water,118,523,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G17 partnerships for the goals,233,572,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,36,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(309,249)|
+1,37,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(229,311)|
+1,38,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(240,389)|
+1,39,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(188,442)|
+1,40,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(203,500)|
+1,41,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(308,497)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G16 Peace Justice and Strong Institutions
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G16 PEACE JUSTICE AND STRONG INSTITUTIONS,1030,154,91,38,8,131,0,0,0,0,0,0
+10,2,modified target G16 peace justice and strong institutions,342,382,76,31,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G16 PEACE JUSTICE AND STRONG INSTITUTIONS,825,546,100,30,8,131,0,0,0,0,0,0
+10,4,G16 Peace Justice and Strong Institutions,818,369,66,39,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(713,366)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(624,366)|
+11,8,48,669,366,6,8,34,3,0,0,1,0,0,0
+10,9,changing G16 peace justice and strong institutions,669,402,66,28,40,131,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(361,397)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(774,416)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(697,478)|
+10,13,INITIAL TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS,754,146,104,34,8,131,0,0,-1,0,0,0
+10,14,NEW TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS,464,198,89,38,8,131,0,0,0,0,0,0
+10,15,target G16 peace justice and strong institutions,602,281,76,29,8,131,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(518,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,163)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(496,270)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G16 PEACE JUSTICE AND STRONG INSTITUTIONS MULTIPLIER,260,110,106,37,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,211)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(965,207)|
+10,27,progress on G16 peace justice and strong institutions,1023,310,75,28,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(915,384)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1054,203)|
+10,30,progress on G3 good health and well being,284,239,73,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G5 gender equality,135,300,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G8 decent work and economic growth,125,403,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G17 partnerships for the goals,108,484,84,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G10 reduce inequalities,231,550,63,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,35,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(284,267)|
+1,36,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(194,333)|
+1,37,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(188,405)|
+1,38,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(204,466)|
+1,39,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(300,483)|
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*G17 Partnerships for the Goals
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,INITIAL G17 PARTNERSHIPS FOR THE GOALS,1030,154,87,28,8,131,0,0,0,0,0,0
+10,2,modified target G17 partnerships for the goals,342,382,85,28,8,131,0,0,0,0,0,0
+10,3,TIME TO CHANGE G17 PARTNERSHIPS FOR THE GOALS,822,547,103,31,8,131,0,0,0,0,0,0
+10,4,G17 Partnerships for the Goals,823,368,71,38,3,131,0,0,0,0,0,0
+12,5,48,576,366,10,8,0,3,0,0,-1,0,0,0
+1,6,8,4,4,0,0,22,0,0,0,-1--1--1,,1|(716,361)|
+1,7,8,5,100,0,0,22,0,0,0,-1--1--1,,1|(627,361)|
+11,8,48,674,361,6,8,34,3,0,0,1,0,0,0
+10,9,changing G17 partnerships for the goals,674,397,66,28,40,131,0,0,-1,0,0,0
+1,10,2,9,1,0,0,0,0,64,0,-1--1--1,,1|(362,397)|
+1,11,4,9,1,0,0,0,0,64,0,-1--1--1,,1|(774,411)|
+1,12,3,9,1,0,0,0,0,64,0,-1--1--1,,1|(699,474)|
+10,13,INITIAL TARGET G17 PARTNERSHIPS FOR THE GOALS,754,146,98,28,8,131,0,0,-1,0,0,0
+10,14,NEW TARGET G17 PARTNERSHIPS FOR THE GOALS,464,198,96,28,8,131,0,0,0,0,0,0
+10,15,target G17 partnerships for the goals,602,281,78,19,8,131,0,0,0,0,0,0
+10,16,Time,489,340,26,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,17,16,15,1,0,0,0,0,64,0,-1--1--1,,1|(513,318)|
+1,18,14,15,1,0,0,0,0,64,0,-1--1--1,,1|(518,200)|
+1,19,13,15,1,0,0,0,0,64,0,-1--1--1,,1|(628,163)|
+1,20,15,2,1,0,0,0,0,64,0,-1--1--1,,1|(496,270)|
+1,21,13,14,1,0,0,0,0,64,0,-1--1--1,,1|(603,133)|
+10,22,TARGET G17 PARTNERSHIPS FOR THE GOALS MULTIPLIER,260,110,112,28,8,131,0,0,0,0,0,0
+1,23,22,14,1,0,0,0,0,64,0,-1--1--1,,1|(359,85)|
+10,24,IMPLEMENTATION DATE,816,225,78,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,25,24,15,1,0,0,0,0,64,0,-1--1--1,,1|(707,211)|
+1,26,1,4,1,0,0,0,0,64,1,-1--1--1,,1|(965,207)|
+10,27,progress on G17 partnerships for the goals,1039,301,80,19,8,3,0,0,0,0,0,0
+1,28,4,27,1,0,0,0,0,64,0,-1--1--1,,1|(963,382)|
+1,29,1,27,1,0,0,0,0,64,0,-1--1--1,,1|(1059,197)|
+10,30,progress on G1 no poverty,303,217,65,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,31,progress on G5 gender equality,182,243,55,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,32,progress on G8 decent work and economic growth,83,298,78,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,33,progress on G11 sustainable cities and communities,84,380,66,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,34,progress on G9 industry innovation and infrastruture,74,451,90,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,35,progress on G12 responsible consumption and production,171,512,92,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,36,progress on G13 climate action,250,604,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,progress on G14 life below water,367,591,70,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,38,progress on G16 peace justice and strong institutions,508,571,80,28,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,39,progress on G15 life on land,527,495,59,19,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,40,30,2,1,0,0,0,0,64,0,-1--1--1,,1|(293,247)|
+1,41,31,2,1,0,0,0,0,64,0,-1--1--1,,1|(219,294)|
+1,42,32,2,1,0,0,0,0,64,0,-1--1--1,,1|(155,325)|
+1,43,33,2,1,0,0,0,0,64,0,-1--1--1,,1|(168,388)|
+1,44,34,2,1,0,0,0,0,64,0,-1--1--1,,1|(195,419)|
+1,45,35,2,1,0,0,0,0,64,0,-1--1--1,,1|(247,432)|
+1,46,36,2,1,0,0,0,0,64,0,-1--1--1,,1|(271,534)|
+1,47,37,2,1,0,0,0,0,64,0,-1--1--1,,1|(334,517)|
+1,48,38,2,1,0,0,0,0,64,0,-1--1--1,,1|(383,511)|
+1,49,39,2,1,0,0,0,0,64,0,-1--1--1,,1|(429,482)|
+///---\\\
+:GRAPH Impact_of_Institutiional
+:TITLE Impact of Institutiional Leverage
+:SCALE
+:VAR Control of Income Inequality
+:Y-MIN 0
+:Y-MAX 1
+:SCALE
+:VAR Control of Corruption
+:Y-MIN 0
+:Y-MAX 1
+:L<%^E!@
+1:Data Fit and Projections.vdf
+9:Data Fit and Projections
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+4:Time
+5:modified target G12 responaible consumption and production
+35:Date
+36:YYYY
+37:1996
+38:1
+39:1
+40:0
+41:0
+24:2013
+25:2030
+26:2030
